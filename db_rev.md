@@ -1,14 +1,41 @@
 # Database Concepts
 
-1. Relational Model <br><br>
-    1. Overview <br><br>
-        1. The relational model is an approach to managing data using a structure and language consistent with first-order predicate logic, where all data are represented in terms of tuples, grouped into relations. <br><br>
-            1. First-order (predicate) logic <br><br>
-                1. First-order logic is a collection of formal systems used in mathematics, philosophy, linguistics, and computer science. <br><br>
-                1. First-order logic uses quantified variables over non-logical objects, and allows the use of sentences that contain variables. <br><br>
-                1. Rather than propositions such as "all men are mortal", in first-order logic one can have expressions in the form "for all x, if x is a man, then x is mortal"; where "for all x" is a quantifier, x is a variable, and "... is a man" and "... is mortal" are predicates. <br><br>
-                1. The term "first-order" distinguishes first-order logic from higher-order logic, in which there are predicates having predicates or functions as arguments, or in which quantification over predicates, functions, or both, are permitted. <br><br>
-                1. In first-order theories, predicates are often associated with sets. In interpreted higher-order theories, predicates may be interpreted as sets of sets. <br><br>
+1. Relational Model
+<br><br>
+    1. Overview
+    <br><br>
+        1. The relational model is an approach to managing data using a structure and language consistent with first-order predicate logic, where all data are represented in terms of tuples, grouped into relations.
+        <br><br>
+            1. First-order (predicate) logic
+            <br><br>
+                1. First-order logic is a collection of formal systems used in mathematics, philosophy, linguistics, and computer science.
+                <br><br>
+                1. First-order logic uses quantified variables over non-logical objects, and allows the use of sentences that contain variables.
+                <br><br>
+                1. Rather than propositions such as "all men are mortal", in first-order logic one can have expressions in the form "for all x, if x is a man, then x is mortal"; where "for all x" is a quantifier, x is a variable, and "... is a man" and "... is mortal" are predicates.
+                <br><br>
+                1. The term "first-order" distinguishes first-order logic from higher-order logic, in which there are predicates having predicates or functions as arguments, or in which quantification over predicates, functions, or both, are permitted.
+                <br><br>
+                1. In first-order theories, predicates are often associated with sets. In interpreted higher-order theories, predicates may be interpreted as sets of sets.
+                <br><br>
+            1. Tuple
+            <br><br>
+                1. In mathematics, a tuple is a finite sequence or ordered list of numbers or, more generally, mathematical objects, which are called the elements of the tuple.
+                <br><br>
+            1. Relation
+            <br><br>
+                1. In database theory, a relation is a set of tuples (d<sub>1</sub>,d<sub>2</sub>,...,d<sub>n</sub>), where each element d<sub>j</sub> is a member of D<sub>j</sub>, a data domain.
+                <br><br>
+                1. Each tuple element is called an attribute value.
+                <br><br>
+                1. An attribute is a name paired with a domain (nowadays more commonly referred to as a type or data type). 
+                <br><br>
+                1. An attribute value is an attribute name paired with an element of that attribute's domain.
+                <br><br>
+                1. A tuple is a set of attribute values in which no two distinct elements have the same name. 
+                <br><br>
+                1. Thus, in some accounts, a tuple is described as a function, mapping names to values.
+                <br><br>
     1. Key Concepts:
 Tables: Consist of rows (tuples) and columns (attributes).
 Attributes: Represent specific characteristics of the entities being described.
