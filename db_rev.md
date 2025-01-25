@@ -4,37 +4,48 @@
 <br><br>
     1. Overview
     <br><br>
-        1. The relational model is an approach to managing data using a structure and language consistent with first-order predicate logic, where all data are represented in terms of tuples, grouped into relations.
+        1. The relational model is an approach to managing data where all data 
+        are represented in terms of _Database Relation Tuples_ grouped into 
+        _Database Relations._
         <br><br>
-            1. First-order (predicate) logic
+            1. __Database Relation Tuple__
             <br><br>
-                1. First-order logic is a collection of formal systems used in mathematics, philosophy, linguistics, and computer science.
+                1. A set of _Attribute Values_ in which no two distinct 
+                _Data Domain Elements_ have the same _Attribute Name._
                 <br><br>
-                1. First-order logic uses quantified variables over non-logical objects, and allows the use of sentences that contain variables.
+                    1. __Attribute Value__
+                    <br><br>
+                        1. An _Attribute Name_ paired with a
+                        _Data Domain Element._
+                        <br><br>
+                    1. __Data Domain Element__
+                    <br><br>
+                        1. An element of a _Data Domain._
+                        <br><br>
+                            1. __Data Domain__
+                            <br><br>
+                                1. Data type, e.g. Integer.
+                                <br><br>
+                        1. For the _Data Domain_ example Integer, a 
+                        _Data Domain Element_ example would be 1.
+                        <br><br>
+                    1. __Attribute Name__
+                    <br><br>
+                        1. Table column name.
+                        <br><br>
+                1. You can think of a _Database Relation Tuple_ as a function
+                mapping names to values.
                 <br><br>
-                1. Rather than propositions such as "all men are mortal", in first-order logic one can have expressions in the form "for all x, if x is a man, then x is mortal"; where "for all x" is a quantifier, x is a variable, and "... is a man" and "... is mortal" are predicates.
-                <br><br>
-                1. The term "first-order" distinguishes first-order logic from higher-order logic, in which there are predicates having predicates or functions as arguments, or in which quantification over predicates, functions, or both, are permitted.
-                <br><br>
-                1. In first-order theories, predicates are often associated with sets. In interpreted higher-order theories, predicates may be interpreted as sets of sets.
-                <br><br>
-            1. Tuple
+            1. __Database Relation__
             <br><br>
-                1. In mathematics, a tuple is a finite sequence or ordered list of numbers or, more generally, mathematical objects, which are called the elements of the tuple.
+                1. A set of _Database Relation Tuples_
+                (d<sub>1</sub>,d<sub>2</sub>,...,d<sub>n</sub>), where each 
+                _Database Relation Tuple Element_ d<sub>j</sub> is a member of 
+                D<sub>j</sub>, a _Data Domain._
                 <br><br>
-            1. Relation
-            <br><br>
-                1. In database theory, a relation is a set of tuples (d<sub>1</sub>,d<sub>2</sub>,...,d<sub>n</sub>), where each element d<sub>j</sub> is a member of D<sub>j</sub>, a data domain.
-                <br><br>
-                1. Each tuple element is called an attribute value.
-                <br><br>
-                1. An attribute is a name paired with a domain (nowadays more commonly referred to as a type or data type). 
-                <br><br>
-                1. An attribute value is an attribute name paired with an element of that attribute's domain.
-                <br><br>
-                1. A tuple is a set of attribute values in which no two distinct elements have the same name. 
-                <br><br>
-                1. Thus, in some accounts, a tuple is described as a function, mapping names to values.
+                    1. __Database Relation Tuple Element__
+                    <br><br>
+                        1. See: _Attribute Value_.
                 <br><br>
     1. Key Concepts:
 Tables: Consist of rows (tuples) and columns (attributes).
