@@ -47,17 +47,15 @@
                     <br><br>
                         1. See: _Attribute Value_.
                 <br><br>
-    1. Key Concepts:
-Tables: Consist of rows (tuples) and columns (attributes).
-Attributes: Represent specific characteristics of the entities being described.
-Relationships: Defined between tables using primary and foreign keys.
-
-Benefits:
-Data independence: Changes to data structure don't necessarily affect the applications.
-Flexibility: Easily adaptable to changing requirements.
-Data integrity: Ensures consistency and accuracy of data.
-
-2. Data Integrity
+1. Database View
+<br><br>
+    1. A database view is a subset of a database and is based on a query that 
+    runs on one or more database tables. 
+    <br><br>
+    1. Database views are saved in the database as named queries and can be used 
+    to save frequently used, complex queries.
+    <br><br>
+1. Data Integrity
 
 Ensuring Data Accuracy and Consistency
 
